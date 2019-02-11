@@ -125,6 +125,12 @@ This project takes a baseline installation of a Linux distribution on a virtual 
     80/tcp (v6)                ALLOW       Anywhere (v6)             
     123/udp (v6)               ALLOW       Anywhere (v6)    
 
+
+## Confirm login with key as user grader to port 2200:
+  ```
+    ssh grader@54.224.53.245 -p 2200 -i ~/.ssh/graderKey
+  ```
+  
 ## Configure the local timezone to UTC
 
   ```
