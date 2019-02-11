@@ -182,6 +182,7 @@ This project takes a baseline installation of a Linux distribution on a virtual 
       sudo git clone https://github.com/msint/movie-item-catalog.git catalogApp
       cd catalogApp
     ```
+  - Make sure .git directory is not publicly accessible: ```sudo chmod 700 /var/www/catalogApp/catalogApp/.git```
   - In /var/www/catalogApp/itemCatalogApp directory, change file name application.py to
   __init__.py
   - Inside __init__.py, database_setup.py, and populateCatalog.py, change
