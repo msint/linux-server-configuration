@@ -263,5 +263,11 @@ This project takes a baseline installation of a Linux distribution on a virtual 
     ```
     - Application is up and running in http://54.224.53.245
 
+
+## Note:
+
+  * Facebook OAuth is currently enforcing to use https and it's not working at this moment.
+   
+   
 ## Acknowledgments
   * https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
