@@ -1,0 +1,2 @@
+# linux-server-configuration
+This project is for Udacity Full Stack Web Development Nano Degree program Linux Server Configuration. This project takes a baseline installation of a Linux distribution on a virtual machine and prepare it to host the web applications. Then, secure the server from a number of attack vectors, install and configure a Postgresql database server, and deploy "Item Catalog" web application onto it.
